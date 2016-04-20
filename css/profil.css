@@ -1,0 +1,70 @@
+#container {
+
+	display: flex;
+	width: 80%;
+	float: right;
+	height: 100%;
+	line-height: 1;
+	min-height: 100%;
+	margin:auto;
+	float: right;
+}
+
+#profil {
+	margin: auto;
+	width: 70%;
+	background-color: rgba(255, 0, 0, 0.2);
+}
+
+#info {
+	display:flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	height:40%;
+
+}
+
+#avatar {
+	flex-grow: 1;
+	width: 50%;
+	height: 100%;
+	
+}
+
+#avatar img {
+	height: 100%;
+	width: 100%;
+}
+
+#legende {
+flex-grow: 1;
+display: flex;
+flex-direction:column;
+width: 40%;
+
+}
+
+#name {
+	font-variant: small-caps;
+	text-align: center;
+	font-size: 2.8em;
+	flex-grow:1;
+}
+
+#supplement {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex-grow:2;
+	font-size: 1.5em;
+}
+
+#send {
+	
+	flex-grow: 2;
+	align-content: center;
+	text-align: center;
+	margin-top: 40px;
+}
+
+

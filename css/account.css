@@ -1,0 +1,96 @@
+#container {
+	width: 80%;
+	float: right;
+	line-height: 1;
+	min-height: 100%;
+	margin:auto;
+	float: right;
+}
+
+
+form {	
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	margin: auto;
+	max-height: 60%;
+}
+
+
+#info_general {
+	display: flex;
+	flex-direction: row;
+}
+
+#picture {
+	border: none;
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+	width: 30%;
+}
+
+#avatar_account {
+	border : none;
+	width: 100%;
+}
+
+#avatar_account img {
+	height: 100%;
+	width: 100%;
+}
+
+#avatar {
+	float: left;
+	width: 70%;
+}
+
+#ok {
+	float: left;
+	width: 30%;
+}
+
+#info_profil {
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 70%;
+	font-size: 3.5em;
+	padding-left: 20px;
+	margin-top: 20px;
+	font-variant: small-caps;
+	background-color: rgba(255, 0, 0, 0.2);
+
+}
+
+.modif {
+	font-size: 2em;
+	background-color: rgba(255, 0, 0, 0.2);
+	padding: 20px;
+	border: 2px solid black;
+	cursor: pointer;
+}
+
+.champ {
+	font-size: 1.2em;
+	padding: 20px;
+	background-color: rgba(0, 0, 0, 0.2);
+	border: 2px solid black;
+}
+
+#avatar_modif {
+	padding: 0px 5px 30px 5px;
+	border: none;
+	background-color: rgba(255, 0, 0, 0.2);
+
+}
+
+
+#info_account {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-top: 30px;
+}

@@ -1,0 +1,221 @@
+@font-face {
+    font-family: 'virgo_01regular';
+    src: url('police/virgo-webfont.eot');
+    src: url('police/virgo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('police/virgo-webfont.woff2') format('woff2'),
+         url('police/virgo-webfont.woff') format('woff'),
+         url('police/virgo-webfont.ttf') format('truetype'),
+         url('police/virgo-webfont.svg#virgo_01regular') format('svg');
+   
+
+}
+
+@font-face {
+    font-family: 'alegreyaregular';
+    src: url('police/police/alegreya-regular-webfont.eot');
+    src: url('police/alegreya-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('police/alegreya-regular-webfont.woff2') format('woff2'),
+         url('police/alegreya-regular-webfont.woff') format('woff'),
+         url('police/alegreya-regular-webfont.ttf') format('truetype'),
+         url('police/alegreya-regular-webfont.svg#alegreyaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: 'alegreyaregular', lato, sans-serif, monospace;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+html {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: url(img/couple.jpg) no-repeat center center;
+	background-size: cover;
+	position: relative;
+}
+
+body {
+	position: relative;
+	line-height: 1;
+	display: flex;
+	flex-direction: column;
+	align-content: space-between;
+	min-height: 100%;
+	margin:auto;
+	
+}
+
+header {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	background-color: rgba(220, 0, 0, 0.4);
+	
+	font-family: 'Courier New';
+	color: white;
+	
+}
+
+#logo {
+	display: flex;
+	position: relative;
+	flex-grow: 1;
+	font-size: 2.9em;
+}
+
+
+h1 {
+	padding: 20px 0 0 40px;
+	font-family: 'virgo_01regular', Arial, serif;
+	font-variant: small-caps;
+	color: #FFFFFF;
+	font-size: 2.5em;
+	align-content: center;
+}
+
+#log_in {
+	padding: 0 10px 0 10px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	color: #FFFFFF;
+	font-size: 1.9em;
+	margin-bottom: 10px;
+}
+
+#log_in span {
+	font-size: 0.6em;
+}
+
+#log_in a {
+	padding: 5px;
+	text-transform: uppercase;
+	border: 1px solid #FFFFFF ;
+	margin-left: 10px;
+}
+
+.empty {
+	flex-grow: 3;
+	width: 100%
+}
+
+#sign_in {
+padding: 0 0 10px 10px;
+color:white;
+}
+
+#signlog_outer {
+
+	flex-grow: 6;
+	width: 100%;
+	
+}
+
+#reset_container, #sign_container, #log_container {
+	margin: auto;
+	width: 40%;
+	border-radius: 5px;
+	background-color :rgba(220, 0, 0, 0.4);
+	box-shadow: 1px 1px 1px 1px black;
+}
+
+
+ h2 {
+	font-size: 2.5em;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	font-variant: small-caps;
+}
+
+#sign_container form, #log_container form, #reset_container form {
+	margin: 15px;
+}
+
+#sign_container img {
+	width: 140px;
+	height:140px;
+	border-radius: 5px;
+}
+
+#sign_account {
+	margin-left: 20px;
+	width: 50%
+}
+#sign_profil {
+	width: 50%;
+}
+
+#data {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.button {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 10px;
+	border: 1px solid #C1CDCD;
+	height: 35px;
+
+}
+
+.button label {
+	flex-grow:1;
+	width: 40%;
+	padding: 5px 0 0 5px;
+	background-color: rgba(50, 50, 50, 0.6);
+	color: white;
+
+}
+
+.button input, #sexe {
+	flex-grow:1;
+	background-color :rgba(255, 255, 255, 0.8);
+	width: 60%
+}
+
+
+
+input[type=submit]{
+	width:100px;
+	margin: 10px 0 20px 10px;
+	box-shadow:1px 1px 1px black;
+	cursor:pointer;
+	width: 30%;
+	padding: 10px;
+	background-color: rgba(238, 229, 222, 0.8);
+	border-radius: 30px;
+}
+
+
+
+footer {
+	position: relative;
+	flex-grow:1;
+	background-color: #000000;
+	opacity: 0.5;
+	width: 100%;
+
+}

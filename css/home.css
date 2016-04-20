@@ -1,0 +1,70 @@
+#container {
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	float: right;
+	height: 100%;
+	line-height: 1;
+	min-height: 100%;
+	margin:auto;
+	float: right;
+}
+
+#image {
+	min-height: 35%;
+	background: url(img/kiss.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+
+#search {
+	min-height: 21%;
+	background: url(img/polygone.jpg) repeat center center;
+}
+
+.profil {
+	width: 20%;
+	margin: 15px 0 15px 0;
+}
+
+.info {
+	width: 80%;
+	margin: auto;
+	display : flex;
+	flex-direction: column;
+}
+.info img {
+	height : 200px;
+	width: 200px;
+}
+
+#result {
+	display : flex;
+	flex-direction: row;
+	flex-wrap: wrap;	
+}
+
+#where {
+	
+	display: flex;
+	flex-direction: row;
+}
+
+form {
+	padding-top: 80px;
+	width: 95%;
+	display: flex;
+	flex-direction: row;
+	margin:auto;
+}
+
+select, input, button {
+	margin-right: 10px;
+}
+ 
+#liste {
+	width: 78%;
+	display: flex;
+	flex-direction:row;
+	justify-content:flex-end;
+	color:white;
+}
